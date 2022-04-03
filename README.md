@@ -24,11 +24,16 @@ Created bd and config .env, next
 
 php artisan migrate
 
+php artisan db:seed
 ```
-Test login http://localhost:8000/login  
-Email Address :
+
+## Test login 
+
+go http://localhost:8000/login  
+
+Email Address : pauloperez@bittronic.net
  
-Password : password
+Password : 3174397349
 
 ## License
 
