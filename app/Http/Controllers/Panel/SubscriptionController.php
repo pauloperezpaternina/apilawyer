@@ -54,7 +54,8 @@ class SubscriptionController extends Controller
      */
     public function show($id)
     {
-        //
+        $users['user'] = User::where('id',$id)->get();
+        return view('show', $users);
     }
 
     /**
@@ -65,7 +66,7 @@ class SubscriptionController extends Controller
      */
     public function edit($id)
     {
-        //
+       //
     }
 
     /**

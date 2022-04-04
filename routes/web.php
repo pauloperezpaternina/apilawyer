@@ -23,7 +23,7 @@ Auth::routes();
 Route::get('/panel', [App\Http\Controllers\HomeController::class, 'index'])->name('panel');
 
 Route::resource('panel/subscriptions', SubscriptionController::class, ['active'=>true])
-->only(['index'])
+->only(['index', 'show'])
 ->names('subscriptions')
 ->middleware('auth');
 

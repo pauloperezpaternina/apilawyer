@@ -14,7 +14,7 @@
                 <th scope="row">{{$subscription->id}}</th>
                 <td>{{$subscription->email}}</td>
                 <td>{{$subscription->active}}</td>
-                <th> <a href="">{{ __('Show')}}</a> </th>
+                <th> <a href="{{ url('panel/subscriptions/'.$subscription->id)}}">{{ __('Show')}}</a> </th>
              </tr>
         @endforeach
 
