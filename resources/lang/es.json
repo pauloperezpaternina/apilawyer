@@ -32,5 +32,9 @@
     "All rights reserved.":  "Todos los derechos reservados.",
     "Subscription": "Suscripción",
     "Dashboard": "Panel",
-    "Business_name": "Abogados Inc."
+    "Business_name": "Abogados Inc.",
+    "List_active_subscriptions": "Listar suscripciones activas",
+    "List_disabled_subscriptions": "Listar suscripciones desactivadas",
+    "Actions": "Acciones",
+    "Show": "Detalle"
 }
