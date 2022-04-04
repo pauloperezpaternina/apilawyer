@@ -1,3 +1,10 @@
+@extends('layouts.app')
+
+@section('content')
+
+              <div class="card-header">{{ __('Subscription') }}</div>
+
+              <div class="card-body">
 <table class="table">
     <thead>
       <tr>
@@ -23,3 +30,7 @@
 
 
 {{$subscriptions->links()}}
+<a href="{{ URL::previous() }}"><<</a>
+</div>
+
+@endsection
