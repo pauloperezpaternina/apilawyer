@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/panel', [App\Http\Controllers\HomeController::class, 'index'])->name('panel');
 
 Route::resource('panel/subscriptions', SubscriptionController::class, ['active'=>true])
 ->only(['index'])
