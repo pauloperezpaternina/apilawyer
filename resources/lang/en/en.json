@@ -5,5 +5,7 @@
     "List_active_subscriptions": "List active subscriptions",
     "List_disabled_subscriptions": "List disabled subscriptions",
     "Actions": "Actions",
-    "Show": "Show"
+    "Show": "Show",
+    "Name:": "Name",
+    "Email": "Email"
 }

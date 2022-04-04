@@ -36,5 +36,7 @@
     "List_active_subscriptions": "Listar suscripciones activas",
     "List_disabled_subscriptions": "Listar suscripciones desactivadas",
     "Actions": "Acciones",
-    "Show": "Detalle"
+    "Show": "Detalle",
+    "Name:": "Nombre",
+    "Email": "Correo Electrónico"
 }
